@@ -1,0 +1,251 @@
+/* START NEWSLETTER 1*/
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* START NEWSLETTER HEART */
+[class^="i_"]:before, [class*=" i_"]:before {
+  font-family: "onlinewebfonts";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.i_music:before {
+  content: "\e010"; }
+
+.i_disc:before {
+  content: "\e011"; }
+
+.newsletterLpHeart {
+  background-color: #1b1b1b; }
+  .newsletterLpHeart__container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%; }
+    .newsletterLpHeart__container__header {
+      width: 100%;
+      color: #1B1B1B;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      @media only screen and (max-width: 37.5em) {
+        .newsletterLpHeart__container__header {
+          flex-direction: column; } }
+      .newsletterLpHeart__container__header__content--title {
+        font-size: 3rem;
+        margin: 0;
+        font-family: "CFPunkRockShow-Regular";
+        transition: all 2s;
+        color: #FEDC00; }
+        @media only screen and (max-width: 75em) {
+          .newsletterLpHeart__container__header__content--title {
+            font-size: 2rem; } }
+      .newsletterLpHeart__container__header__headerLinks {
+        display: flex; }
+        .newsletterLpHeart__container__header__headerLinks--links {
+          font-size: 2rem;
+          line-height: 1;
+          font-family: "Veneer W01 Two";
+          padding: 1px 7px;
+          letter-spacing: -1px;
+          transition: all .5s; }
+          @media only screen and (max-width: 75em) {
+            .newsletterLpHeart__container__header__headerLinks--links {
+              font-size: 1.8rem; } }
+          @media only screen and (max-width: 37.5em) {
+            .newsletterLpHeart__container__header__headerLinks--links {
+              margin-top: 10px; } }
+          .newsletterLpHeart__container__header__headerLinks--links a {
+            text-decoration: none;
+            color: #FEDC00;
+            margin: 0 1rem;
+            transition: color 1s; }
+            .newsletterLpHeart__container__header__headerLinks--links a:hover {
+              border-bottom: solid 1px #EA1778;
+              border-top: solid 1px #EA1778;
+              color: #EA1778; }
+    .newsletterLpHeart__container__main {
+      background-image: linear-gradient(to right bottom, rgba(0, 58, 112, 0.29), rgba(202, 11, 153, 0.5)), url('../img/festival.jpg');
+      object-fit: cover;
+      object-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .newsletterLpHeart__container__main__containerHeart {
+        display: flex;
+        font-size: 45rem;
+        position: relative; }
+        @media only screen and (max-width: 75em) {
+          .newsletterLpHeart__container__main__containerHeart {
+            font-size: 34rem; } }
+        @media only screen and (max-width: 37.5em) {
+          .newsletterLpHeart__container__main__containerHeart {
+            font-size: 21rem;
+            margin-bottom: 3rem; } }
+        .newsletterLpHeart__container__main__containerHeart i {
+          color: #EA1778; }
+        .newsletterLpHeart__container__main__containerHeart__textHeart {
+          position: absolute;
+          top: 7%;
+          left: 15%;
+          font-size: 10rem;
+          color: #FFF;
+          width: 80%;
+          line-height: 1;
+          font-family: "Lovelo-LineLight" !important;
+          animation: titleHeart 20s infinite alternate linear; }
+          @media only screen and (max-width: 75em) {
+            .newsletterLpHeart__container__main__containerHeart__textHeart {
+              font-size: 7rem; } }
+          @media only screen and (max-width: 37.5em) {
+            .newsletterLpHeart__container__main__containerHeart__textHeart {
+              font-size: 5rem; } }
+          .newsletterLpHeart__container__main__containerHeart__textHeart i {
+            color: #FFF;
+            font-size: 8rem;
+            animation: titleHeart 20s infinite alternate linear; }
+            @media only screen and (max-width: 37.5em) {
+              .newsletterLpHeart__container__main__containerHeart__textHeart i {
+                font-size: 5rem; } }
+        .newsletterLpHeart__container__main__containerHeart--saveTheDate {
+          transition: all .3s;
+          font-size: 3rem;
+          position: absolute;
+          width: 40%;
+          background: #FEDC00;
+          right: 0;
+          top: 75%;
+          text-align: center;
+          padding: .8rem 1rem;
+          transform: translateX(20px);
+          font-family: "CFPunkRockShow-Regular";
+          border-radius: 7px;
+          display: flex; }
+          @media only screen and (max-width: 75em) {
+            .newsletterLpHeart__container__main__containerHeart--saveTheDate {
+              font-size: 2rem; } }
+          @media only screen and (max-width: 37.5em) {
+            .newsletterLpHeart__container__main__containerHeart--saveTheDate {
+              width: 56%;
+              top: 82%;
+              right: 1.5rem;
+              padding: .4rem 0; } }
+    .newsletterLpHeart__container__containerButton {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      padding: 3rem 0 0; }
+      @media only screen and (max-width: 75em) {
+        .newsletterLpHeart__container__containerButton {
+          width: 100px; } }
+      .newsletterLpHeart__container__containerButton--button {
+        align-self: center;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        padding: 1rem 5rem;
+        color: #FEDC00;
+        font-family: "Veneer W01 Two";
+        font-size: 3rem;
+        background: #000;
+        transition: all 1s; }
+        @media only screen and (max-width: 75em) {
+          .newsletterLpHeart__container__containerButton--button {
+            font-size: 2rem;
+            padding: 1rem 4rem; } }
+        @media only screen and (max-width: 37.5em) {
+          .newsletterLpHeart__container__containerButton--button {
+            font-size: 1.75rem;
+            padding: 1rem 3rem; } }
+        .newsletterLpHeart__container__containerButton--button:hover {
+          background-color: #FEDC00;
+          color: #000;
+          cursor: pointer; }
+      .newsletterLpHeart__container__containerButton--copy {
+        display: flex;
+        align-self: flex-end;
+        padding: 0 2rem;
+        color: #FEDC00;
+        font-family: "Veneer W01 Two";
+        letter-spacing: 2px; }
+        @media only screen and (max-width: 37.5em) {
+          .newsletterLpHeart__container__containerButton--copy {
+            align-self: center;
+            flex-direction: column; } }
+        .newsletterLpHeart__container__containerButton--copy i {
+          color: #EA1778; }
+
+.rotateIcon {
+  color: #EA1778; }
+  .rotateIcon:hover {
+    transform: scale(1) rotateZ(360deg); }
+
+
+@keyframes heart {
+  from {
+    transform: none;
+    color: yellow; }
+  50% {
+    transform: scale(1.1); }
+  to {
+    transform: none; } }
+
+@keyframes titleHeart {
+  0% {
+    color: #FFF; }
+  20% {
+    color: #003a70; }
+  40% {
+    color: #FFF; }
+  60% {
+    color: #1b1b1b; }
+  80% {
+    color: #FFF; }
+  100% {
+    color: #fac70b; } }
+
+@font-face {
+  font-family: "Lovelo-LineLight";
+  src: url("../fonts/Lovelo-LineLight.eot");
+  /* IE9*/
+  src: url("../fonts/Lovelo-LineLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Lovelo-LineLight.woff2") format("woff2"), url("../fonts/Lovelo-LineLight.woff") format("woff"), url("../fonts/Lovelo-LineLight.ttf") format("truetype"), url("../fonts/Lovelo-LineLight.svg#Lovelo-LineLight") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "Veneer W01 Two";
+  src: url("../fonts/Veneer W01 Two.eot");
+  /* IE9*/
+  src: url("../fonts/Veneer W01 Two.eot?#iefix") format("embedded-opentype"), url("../fonts/Veneer W01 Two.woff2") format("woff2"), url("../fonts/Veneer W01 Two.woff") format("woff"), url("../fonts/Veneer W01 Two.ttf") format("truetype"), url("../fonts/Veneer W01 Two.svg#Veneer W01 Two") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "CFPunkRockShow-Regular";
+  src: url("../fonts/CFPunkRockShow-Regular.eot");
+  /* IE9*/
+  src: url("../fonts/CFPunkRockShow-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/CFPunkRockShow-Regular.woff2") format("woff2"), url("../fonts/CFPunkRockShow-Regular.woff") format("woff"), url("../fonts/CFPunkRockShow-Regular.ttf") format("truetype"), url("../fonts/CFPunkRockShow-Regular.svg#Squarodynamic 07") format("svg");
+  /* iOS 4.1- */ }
+
+
+@font-face {
+  font-family: "onlinewebfonts";
+  src: url("../fonts/onlinewebfonts.eot");
+  src: url("../fonts/onlinewebfonts.eot?#iefix") format("embedded-opentype"), url("../fonts/onlinewebfonts.woff2") format("woff2"), url("../fonts/onlinewebfonts.woff") format("woff"), url("../fonts/onlinewebfonts.ttf") format("truetype"), url("../fonts/onlinewebfonts.svg#onlinewebfonts") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
